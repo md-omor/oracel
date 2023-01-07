@@ -2,7 +2,7 @@ import React from "react";
 
 const IntroInfo = () => {
   return (
-    <div className="flex justify-between items-center gap-10">
+    <div className="flex justify-between items-center gap-10 flex-wrap">
       <div className="">
         <div className="w-[50px] h-[50px]">
           <img
