@@ -10,7 +10,7 @@ const SellerCard = ({
 }) => {
   return (
     <div
-      className="sellerCardBorder rounded-[10px] w-[260px] flex-wrap  py-5 px-4 flex items-center gap-4"
+      className="sellerCardBorder rounded-[10px] md:w-[260px] w-full flex-wrap  py-5 px-4 flex items-center gap-9 md:gap-4"
       style={{ borderColor: borderColor, borderWidth: 1 }}
     >
       <h6 className="font-secondary font-normal text-[15px] leading-[20px] text-[#969696]">
