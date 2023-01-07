@@ -176,7 +176,7 @@ export const dropsInfo = [
     userName: "@gomim",
   },
   {
-    image: "/images/notableDrops2.svg",
+    image: "/images/notableDrops3.svg",
     name: "F1 Race Cars",
     description:
       "NFT Collectibles of the most famous F1 racing cars that have made racing history for decades. ",
