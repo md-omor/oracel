@@ -159,3 +159,72 @@ export const categoryInfo = [
     name: "F1 Metaverse",
   },
 ];
+
+export const dropsInfo = [
+  {
+    image: "/images/notableDrops1.svg",
+    name: "NFT Event Tickets",
+    description:
+      "Buy Tickets for F1 events all over the world or in the F1 Metaverse",
+    userName: "@robix2x2x",
+  },
+  {
+    image: "/images/notableDrops2.svg",
+    name: "NFT Event Tickets",
+    description:
+      "Buy Tickets for F1 events all over the world or in the F1 Metaverse",
+    userName: "@robix2x2x",
+  },
+  {
+    image: "/images/notableDrops3.svg",
+    name: "NFT Event Tickets",
+    description:
+      "Buy Tickets for F1 events all over the world or in the F1 Metaverse",
+    userName: "@robix2x2x",
+  },
+  {
+    image: "/images/notableDrops3.svg",
+    name: "NFT Event Tickets",
+    description:
+      "Buy Tickets for F1 events all over the world or in the F1 Metaverse",
+    userName: "@robix2x2x",
+  },
+  {
+    image: "/images/notableDrops3.svg",
+    name: "NFT Event Tickets",
+    description:
+      "Buy Tickets for F1 events all over the world or in the F1 Metaverse",
+    userName: "@robix2x2x",
+  },
+  {
+    image: "/images/notableDrops3.svg",
+    name: "NFT Event Tickets",
+    description:
+      "Buy Tickets for F1 events all over the world or in the F1 Metaverse",
+    userName: "@robix2x2x",
+  },
+];
+
+export const blog = [
+  {
+    name: "Top 10 NFT projects that shocked the Internet with their uniqueness",
+    image: "/images/blog1.svg",
+    date: "May 03, 2022",
+    expire: "  3 min read   ",
+    comment: "2 comments",
+  },
+  {
+    name: "The rise of the non fungible token internet having trouble",
+    image: "/images/blog2.svg",
+    date: "May 03, 2022",
+    expire: "   3 min read   ",
+    comment: "   2 comments ",
+  },
+  {
+    name: "Features of NFT games that have gained popularity in 2022",
+    image: "/images/blog3.svg",
+    date: "May 03, 2022",
+    expire: "   3 min read   ",
+    comment: "   2 comments ",
+  },
+];
