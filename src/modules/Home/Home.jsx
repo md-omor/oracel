@@ -1,5 +1,6 @@
 import React from "react";
 import BestSeller from "./sections/BestSeller";
+import Blog from "./sections/Blog";
 import Category from "./sections/Category";
 import Drops from "./sections/Drops";
 import Hero from "./sections/Hero";
@@ -13,6 +14,7 @@ const Home = () => {
       <BestSeller />
       <Category />
       <Intro />
+      <Blog />
     </div>
   );
 };
