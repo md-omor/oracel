@@ -1,6 +1,13 @@
 import React from "react";
 import { categoryInfo } from "../config/constants";
 import CategoryCard from "../partials/CategoryCard";
+// import Swiper and modules styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import { Navigation, Pagination } from "swiper";
 
 const Category = () => {
   return (
@@ -9,9 +16,22 @@ const Category = () => {
         Browse by category
       </h1>
       <div className="flex flex-wrap justify-between items-center gap-5">
-        {categoryInfo?.map((data, index) => (
-          <CategoryCard {...data} key={index} />
-        ))}
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={30}
+          // navigation={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Navigation, Pagination]}
+          className="mySwiper"
+        >
+          {categoryInfo?.map((data, index) => (
+            <SwiperSlide key={index}>
+              <CategoryCard {...data} key={index} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
