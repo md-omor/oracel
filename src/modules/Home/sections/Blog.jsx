@@ -11,7 +11,7 @@ const Blog = () => {
       <h1 className="font-primary font-semibold text-[38px] leading-[48px] mb-[30px] text-white">
         Notable drops
       </h1>
-      <div className="flex gap-10 justify-between items-center overflow-auto relative">
+      <div className="flex flex-wrap gap-4 justify-start items-center overflow-auto relative">
         {blog?.map((data, index) => (
           <BlogCard {...data} key={index} />
         ))}
