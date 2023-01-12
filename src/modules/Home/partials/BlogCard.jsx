@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogCard = ({ image, name, date, expire, comment }) => {
   return (
-    <div className=" rounded-[10px]  w-[470px] h-[600px] flex justify-center items-center relative">
+    <div className=" rounded-[10px]  w-[450px] h-[600px] flex justify-center items-center relative">
       {/* <div className=" w-[430px] h-[560px] flex flex-col justify-end relative"> */}
       <div className="w-[420px] h-[565px]">
         <img src={image} alt={name} className="w-full h-full" />
