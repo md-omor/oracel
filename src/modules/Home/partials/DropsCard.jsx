@@ -1,27 +1,30 @@
 import React from "react";
 
-const DropsCard = () => {
+const DropsCard = ({ image, name, description, userName }) => {
   return (
-    <div className="border borderColor w-[460px] h-[600px] p-5">
-      <div className="cardbg w-[420px] h-[560px] flex flex-col justify-end relative">
-        <div className="">
-          <img src="/images/cardOverlay.svg" alt="" />
-        </div>
+    <div className="hover:border hover:border-[#FCB808] duration-300 transition-all ease-in-out rounded-[10px] w-[470px] h-[600px] flex justify-center items-center relative">
+      {/* <div className=" w-[430px] h-[560px] flex flex-col justify-end relative"> */}
+      <div className="w-[420px] h-[565px]">
+        <img src={image} alt={name} className="w-full h-full" />
+      </div>
+      <div className="absolute bg-[linear-gradient(0deg,#161616_69.35%,rgba(22,22,22,0)_134.95%)] w-[420px] bottom-4 rounded-[20px] p-5">
         <h1 className="font-primary font-semibold text-[21px] leading-[29px] mb-1 text-white">
-          NFT Event Tickets
+          {name}
         </h1>
         <p className="font-secondary font-normal text-[17px] leading-[24px] text-[#BBBBBB]">
-          Buy Tickets for F1 events all over the world or in the F1 Metaverse
+          {description}
         </p>
+
         <div className="bg-[#161616] flex items-center justify-center gap-[10px] w-[150px] rounded-full p-[10px] mt-5">
           <div className="">
             <img src="/images/profilemask.svg" alt="profile mask" />
           </div>
           <h5 className="font-secondary font-normal text-[17px] leading-[24px] text-[#969696]">
-            @robix2x2x
+            {userName}
           </h5>
         </div>
       </div>
+      {/* </div> */}
     </div>
   );
 };
