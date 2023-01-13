@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto flex justify-between items-center h-[970px]">
+    <div className="container mx-auto flex flex-wrap justify-between items-center h-[970px]">
       <div className="relative">
         <div className="w-[670px] h-[670px]">
           <img
@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="w-[635px] h-[635px] bg-[#161616] rounded-[10px] flex flex-col items-center top-[16px] left-[17px] absolute p-5">
           <div className="w-[600px] h-[500px]">
             <img
-              src="/images/heromask.svg"
+              src="/images/heroimage.svg"
               alt="mask"
               className="w-full h-full"
             />
@@ -57,7 +57,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="">
+      <div className="2xl:m-0 my-10">
         <h1 className="font-primary font-semibold text-[55px] leading-[64px] text-white md:w-[660px] mb-5">
           Alfa Romeo 2023, Buy Nft now
         </h1>
