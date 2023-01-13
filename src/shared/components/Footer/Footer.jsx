@@ -13,7 +13,7 @@ const Footer = () => {
     <>
       <div className="-z-50 border-t border-[#424242]">
         <div className="px-10  container mx-auto py-[110px]  -z-50">
-          <div className="flex justify-between gap-[80px] items-center">
+          <div className="flex flex-wrap justify-between gap-[80px] items-center">
             <div className="">
               <h1 className="font-primary font-semibold text-2xl mb-5">
                 Stay in the loop
