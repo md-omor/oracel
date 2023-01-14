@@ -59,7 +59,7 @@ const Hero = () => {
       </div>
       <div className="2xl:m-0 my-10">
         <h1 className="font-primary font-semibold text-[55px] leading-[64px] text-white md:w-[660px] mb-5">
-          Alfa Romeo 2023, Buy Nft now
+          Alfa Romeo 2023, Buy NFT now
         </h1>
         <p className="font-primary font-semibold text-[19px] leading-[28px] text-[#969696] md:w-[660px]">
           Digital marketplace for non-fungible tokens. Buy, sell, and discover
