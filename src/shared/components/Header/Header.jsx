@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="border-b border-[#424242]">
-      <div className="flex  ">
+    <div className="border-b hidden md:block border-[#424242]">
+      <div className="flex justify-center  ">
         <div className="border-r border-[#424242] ">
           <img
             src="/images/logo.svg"
@@ -151,10 +151,6 @@ const Header = () => {
               </li>
             </ul>
           </div>
-
-          <h2 className="font-primary font-semibold text-[15px] leading-[20px] text-[#969696]">
-            Contacts
-          </h2>
 
           <button className="bg-[linear-gradient(98.49deg,#fcb808_-11.31%,#f9075e_76.26%)] rounded-[10px] w-[190px] ml-5 font-primary font-medium text-[15px] leading-[20px] py-[15px] px-[35px]">
             Connect wallet
