@@ -7,9 +7,9 @@ import BlogCard from "../partials/BlogCard";
 
 const Blog = () => {
   return (
-    <div className="container mx-auto pt-[110px] relative">
+    <div className="container mx-auto py-[110px] relative">
       <h1 className="font-primary font-semibold text-[38px] leading-[48px] mb-[30px] text-white">
-        Notable drops
+        Our blog
       </h1>
       <div className="flex flex-wrap gap-4 justify-start items-center overflow-auto relative">
         {blog?.map((data, index) => (
