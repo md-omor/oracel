@@ -18,12 +18,11 @@ const Drops = () => {
         <Swiper
           slidesPerView={3}
           spaceBetween={30}
-          // navigation={true}
           pagination={{
             clickable: true,
           }}
           breakpoints={{
-            640: {
+            320: {
               slidesPerView: 1,
               spaceBetween: 20,
             },
@@ -33,7 +32,7 @@ const Drops = () => {
             },
             1140: {
               slidesPerView: 3,
-              spaceBetween: 50,
+              spaceBetween: 30,
             },
           }}
           modules={[Navigation, Pagination]}
