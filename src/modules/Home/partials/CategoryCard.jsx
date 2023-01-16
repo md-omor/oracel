@@ -2,7 +2,7 @@ import React from "react";
 
 const CategoryCard = ({ image1, image2, image3, name }) => {
   return (
-    <div className="border border-slate-600 w-full md:w-[330px] flex-col rounded-[10px] h-[340px] flex justify-center items-center gap-[10px] categoryBorder">
+    <div className="border border-slate-600  w-[330px] flex-col rounded-[10px] h-[340px] flex justify-center items-center gap-[10px] categoryBorder">
       <div className="flex justify-between gap-[10px]">
         <div className="">
           <img src={image1} alt="" className="w-full h-full" />
