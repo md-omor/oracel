@@ -10,7 +10,7 @@ const SellerCard = ({
 }) => {
   return (
     <div
-      className="sellerCardBorder rounded-[10px] md:w-[260px] w-full flex-wrap  py-5 px-4 flex items-center gap-9 md:gap-4"
+      className="sellerCardBorder rounded-[10px] md:w-[268px] w-full flex-wrap  py-5 px-4 flex items-center gap-9 md:gap-4"
       style={{ borderColor: borderColor, borderWidth: 1 }}
     >
       <h6 className="font-secondary font-normal text-[15px] leading-[20px] text-[#969696]">
@@ -25,7 +25,9 @@ const SellerCard = ({
           />
         </div>
         <div className="w-[18px] h-[18px] absolute right-1 -bottom-[2px]">
-          <img src={verifyTick} alt="tick mark" className="w-full h-full" />
+          {verifyTick && (
+            <img src={verifyTick} alt="tick mark" className="w-full h-full" />
+          )}
         </div>
       </div>
 
