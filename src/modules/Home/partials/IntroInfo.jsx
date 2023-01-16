@@ -2,8 +2,8 @@ import React from "react";
 
 const IntroInfo = () => {
   return (
-    <div className="flex justify-between items-center gap-10 flex-wrap">
-      <div className="">
+    <div className="flex justify-between items-center gap-7 flex-wrap">
+      <div className="md:m-0 mb-12">
         <div className="w-[50px] h-[50px]">
           <img
             src="/images/wallet.svg"
@@ -20,7 +20,7 @@ const IntroInfo = () => {
         </p>
       </div>
 
-      <div className="">
+      <div className="md:m-0 mb-12">
         <div className="w-[50px] h-[50px]">
           <img
             src="/images/folder.svg"
@@ -36,7 +36,7 @@ const IntroInfo = () => {
         </p>
       </div>
 
-      <div className="">
+      <div className="md:m-0 mb-12">
         <div className="w-[50px] h-[50px]">
           <img src="/images/cloud.svg" alt="wallet" className="w-full h-full" />
         </div>
@@ -47,7 +47,7 @@ const IntroInfo = () => {
           Mint and list your Non-Fungible tokens on the Oracle Marketplace.
         </p>
       </div>
-      <div className="">
+      <div className="md:m-0 mb-12">
         <div className="w-[50px] h-[50px]">
           <img src="/images/tags.svg" alt="wallet" className="w-full h-full" />
         </div>
