@@ -12,14 +12,14 @@ const Footer = () => {
   return (
     <>
       <div className="-z-50 border-t border-[#424242]">
-        <div className="px-10  container mx-auto py-[110px]  -z-50">
+        <div className=" container mx-auto py-[110px]  -z-50">
           <div className="flex flex-wrap justify-between gap-[80px] items-center">
-            <div className="">
+            <div className="w-full md:w-fit">
               <h1 className="font-primary font-semibold text-2xl mb-5">
                 Stay in the loop
               </h1>
 
-              <div className="flex flex-col w-full mb-[30px] relative">
+              <div className="flex flex-col w-full md:mb-[30px] m-0 relative">
                 <div className="relative">
                   <input
                     type="email"
@@ -38,31 +38,31 @@ const Footer = () => {
                 Join the community
               </h1>
 
-              <div className="flex gap-[15px]">
-                <div className="bg-[#1B1B1B] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center ">
+              <div className="flex gap-3 md:gap-[15px]">
+                <div className="bg-[#1B1B1B] rounded-[10px] md:w-[50px] md:h-[50px] w-10 h-10 flex items-center justify-center ">
                   <img src="/images/twitter.svg" alt="twitter" />
                 </div>
 
-                <div className="bg-[#FCB808] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center ">
+                <div className="bg-[#FCB808] rounded-[10px] md:w-[50px] md:h-[50px] w-10 h-10 flex items-center justify-center ">
                   <img src="/images/facebook.svg" alt="facebook" />
                 </div>
 
-                <div className="bg-[#1B1B1B] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center ">
+                <div className="bg-[#1B1B1B] rounded-[10px] md:w-[50px] md:h-[50px] w-10 h-10 flex items-center justify-center ">
                   <img src="/images/instagram.svg" alt="instagram" />
                 </div>
 
-                <div className="bg-[#1B1B1B] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center ">
+                <div className="bg-[#1B1B1B] rounded-[10px] md:w-[50px] md:h-[50px] w-10 h-10 flex items-center justify-center ">
                   <img src="/images/youtube.svg" alt="youtube" />
                 </div>
 
-                <div className="bg-[#1B1B1B] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center ">
+                <div className="bg-[#1B1B1B] rounded-[10px] md:w-[50px] md:h-[50px] w-10 h-10 flex items-center justify-center ">
                   <img src="/images/talegram.svg" alt="talegram" />
                 </div>
 
-                <div className="bg-[#1B1B1B] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center ">
+                <div className="bg-[#1B1B1B] rounded-[10px] md:w-[50px] md:h-[50px] w-10 h-10 flex items-center justify-center ">
                   <img src="/images/discord.svg" alt="discord" />
                 </div>
-                <div className="bg-[#1B1B1B] rounded-[10px] w-[50px] h-[50px] flex items-center justify-center ">
+                <div className="bg-[#1B1B1B] rounded-[10px] md:w-[50px] md:h-[50px] w-10 h-10 flex items-center justify-center ">
                   <img src="/images/Linkedin.svg" alt="Linkedin" />
                 </div>
               </div>
@@ -123,7 +123,7 @@ const Footer = () => {
                   <Link to="/">Rankings</Link>
                 </span>
               </div>
-              <div className=" flex-col lg:mt-0 xl:mt-0 mt-[20px] hidden md:flex">
+              <div className=" flex-col lg:mt-0 xl:mt-0  mt-10 flex">
                 <h2 className="font-semibold font-primary text-[19px] leading-[28px] text-white mb-6">
                   Company
                 </h2>
@@ -149,7 +149,7 @@ const Footer = () => {
             <h2 className="text-right font-secondary font-normal text-[17px] leading-[24px] text-[#969696]">
               © {year} Oracle | All Rights Reserved
             </h2>
-            <p className="text-right font-secondary font-normal text-[17px] leading-[24px] text-[#969696]">
+            <p className="text-right font-secondary font-normal text-[17px] leading-[24px] hidden md:flex text-[#969696]">
               Privacy policy | Terms of service
             </p>
           </div>
