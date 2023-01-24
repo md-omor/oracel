@@ -12,7 +12,7 @@ import { Navigation, Pagination } from "swiper";
 const Category = () => {
   return (
     <div className="container mx-auto pt-[110px] mb-5">
-      <h1 className="font-primary font-semibold text-[38px] leading-[48px] mb-[30px] text-white">
+      <h1 className="font-primary font-semibold text-3xl md:text-[38px] leading-[48px] mb-[30px] text-white">
         Browse by category
       </h1>
       <div className="flex flex-wrap justify-between items-center gap-5">
@@ -25,6 +25,20 @@ const Category = () => {
           }}
           modules={[Navigation, Pagination]}
           className="mySwiper"
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 10,
+            },
+            1140: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          }}
         >
           {categoryInfo?.map((data, index) => (
             <SwiperSlide key={index}>
