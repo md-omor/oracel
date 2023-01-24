@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+.borderColor {
+  border: 1px solid
+    linear-gradient(180deg, #424242 0%, rgba(66, 66, 66, 0) 100%);
+}
+
+.cardbg {
+  background: linear-gradient(
+    180deg,
+    rgba(17, 17, 17, 1) 38.5%,
+    rgba(17, 17, 17, 0.6) 75.96%,
+    #111111 110.42%
+  );
+}
+
+.sellerCardBorder {
+  border: 1px solid;
+
+  border-image-source: linear-gradient(
+    90deg,
+    #424242 0%,
+    rgba(66, 66, 66, 0) 100%
+  );
+}
+
+.sellerCardBorder {
+  border: 2px solid;
+  border-image: linear-gradient(90deg, #424242 0%, rgba(66, 66, 66, 0) 100%) 1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.categoryBorder {
+  border: 2px solid;
+  border-image: linear-gradient(180deg, #424242 0%, rgba(66, 66, 66, 0) 100%) 1;
+  border-radius: 10px;
+}
+
+.introHeader {
+  background: linear-gradient(98.49deg, #fcb808 -11.31%, #f9075e 76.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.introBg {
+  background-image: url("../public/images/introBg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+@layer {
+  body {
+    background: #111111;
+    color: #ffffff;
+  }
+}
