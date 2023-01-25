@@ -17,8 +17,12 @@ const SellerCard = ({
         {serial}
       </h6>
       <div className="w-[55px] relative">
-        <div className="w-[50px] h-[50px]">
-          <img src={image} alt="profile mask" className="w-full h-full" />
+        <div className="w-[50px] h-[50px] rounded-full">
+          <img
+            src={image}
+            alt="profile mask"
+            className="w-full h-full rounded-full"
+          />
         </div>
         <div className="w-[18px] h-[18px] absolute right-1 -bottom-[2px]">
           <img src={verifyTick} alt="tick mark" className="w-full h-full" />

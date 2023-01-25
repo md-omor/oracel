@@ -1,7 +1,7 @@
 export const sellerCardInfo = [
   {
     serial: "01",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-1.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -9,7 +9,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "02",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-2.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -17,7 +17,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "03",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-3.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -25,7 +25,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "04",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-4.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -33,7 +33,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "05",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-5.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -41,7 +41,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "06",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-6.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -49,7 +49,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "07",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-7.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -57,7 +57,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "08",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-8.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -65,7 +65,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "09",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-9.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -73,7 +73,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "10",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-10.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -81,7 +81,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "11",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-11.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -89,7 +89,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "12",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-12.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -97,7 +97,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "13",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-13.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -105,7 +105,7 @@ export const sellerCardInfo = [
   },
   {
     serial: "14",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-14.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
@@ -113,11 +113,11 @@ export const sellerCardInfo = [
   },
   {
     serial: "15",
-    image: "/images/profilemask.svg",
+    image: "/images/IMG/RandomAvatars/avatar-15.jpg",
     verifyTick: "/images/tickmark.svg",
     name: "@yukanne",
     balance: "$6,486,658",
-    borderColor: "#FCB808",
+    borderColor: "",
   },
 ];
 
