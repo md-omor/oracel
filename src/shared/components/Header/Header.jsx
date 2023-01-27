@@ -12,7 +12,7 @@ const Header = () => {
             <img
               src="/images/logo.svg"
               alt="logo"
-              className="w-full h-full md:py-[45px] md:px-[75px]"
+              className="w-full h-full md:py-[45px] md:px-[75px] cursor-pointer"
             />
           </div>
           <div className="flex justify-center items-center gap-5 md:hidden absolute top-6 right-6">
