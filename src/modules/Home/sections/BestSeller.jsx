@@ -21,7 +21,7 @@ const BestSeller = () => {
         </select>
       </div>
 
-      <div className="flex flex-wrap gap-5">
+      <div className="flex flex-wrap gap-3">
         {sellerCardInfo?.map((data, index) => (
           <SellerCard {...data} key={index} index={index} />
         ))}
